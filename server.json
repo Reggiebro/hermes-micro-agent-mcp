@@ -1,0 +1,32 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.reggiebro/hermes-micro-agent",
+  "title": "Hermes Micro-Agent",
+  "description": "20 paid AI and data micro-tasks over x402 (HTTP 402) on Base: summarize, extract, keywords, sentiment, translate, rewrite, proofread, code_lint, code_explain, code_refactor, code_review, python_debug, json_minify, json_query, csv_to_json, hash, base64, convert, describe_image, probe_media. Free tools (tasks, price, verify, health) let an agent price and verify a call before paying. Every paid call is verified on-chain before execution; unimplemented tasks are refused, never faked.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/Reggiebro/hermes-micro-agent-mcp",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "hermes-micro-agent-mcp",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://hermesmicroservice.theworkpc.com/mcp"
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/official": {
+      "publishedAt": "2026-10-26T00:00:00.000Z"
+    }
+  }
+}
