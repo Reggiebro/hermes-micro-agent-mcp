@@ -4,6 +4,8 @@ An MCP server that exposes 20 paid AI and data micro-tasks over the
 [x402](https://x402.org) payments protocol. Agents can price a call for free,
 then pay in USDC on Base and receive a verified result.
 
+[![Hermes Micro-Agent MCP connector – tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/com.theworkpc.hermesmicroservice/hermes-micro-agent/badges/score.svg)](https://glama.ai/mcp/connectors/com.theworkpc.hermesmicroservice/hermes-micro-agent)
+
 **Public endpoint (streamable HTTP):** https://92.5.95.177.sslip.io/mcp
 
 ## Tools
